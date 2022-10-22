@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Café Martínez",
+        "address": "Gral. Alvear 200, B1640EVD Martínez, Provincia de Buenos Aires",
+        "maps": "https://www.google.com/maps/place/Caf%C3%A9+Mart%C3%ADnez/@-34.5273243,-58.5463705,13z/data=!4m9!1m2!2m1!1scafe+martinez!3m5!1s0x95bcb1a88c761feb:0x34ec4f360543e8c6!8m2!3d-34.4884421!4d-58.4985583!15sCg1jYWZlIG1hcnRpbmV6IgOIAQFaDyINY2FmZSBtYXJ0aW5lepIBC2NvZmZlZV9zaG9w4AEA"
+    },
+    {
+        "id": 2,
+        "name": "Blossom",
+        "address": "B1636AAF, Av. Maipú 2501, B1636AAF Olivos, Provincia de Buenos Aires",
+        "maps": "https://www.google.com/maps/place/Blossom+Olivos/@-34.5274757,-58.5463705,13z/data=!4m9!1m2!2m1!1sblossom!3m5!1s0x95bcb13eec0df111:0x69f324a43dbd36e!8m2!3d-34.5121151!4d-58.4897049!15sCgdibG9zc29tWgkiB2Jsb3Nzb22SAQpyZXN0YXVyYW504AEA"
+    },
+    {
+        "id": 3,
+        "name": "Starbucks",
+        "address": "Av. Maipú 2910, B1636AAW Olivos, Provincia de Buenos Aires",
+        "maps": "https://www.google.com/maps/place/Starbucks/@-34.5273243,-58.5463705,13z/data=!4m9!1m2!2m1!1sStarbucks!3m5!1s0x95bcb1160170a5eb:0xb9f33d6278cd1cdf!8m2!3d-34.5091214!4d-58.4919566!15sCglTdGFyYnVja3MiA4gBAVoLIglzdGFyYnVja3OSAQtjb2ZmZWVfc2hvcOABAA"
+    }
+]

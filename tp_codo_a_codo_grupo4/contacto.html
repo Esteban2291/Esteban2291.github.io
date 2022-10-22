@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/coffe_logo.svg" type="image/x-icon" sizes="64x64">
+    <link rel="stylesheet" href="style/style.css">
+    <title>NMC - Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="txt_cent_gral">
+            <img src="/tp_codo_a_codo_grupo4/imagenes/coffee-cup.png" class="icono_header">
+            <h1>
+                <i>Ponete en contacto con nosotros!</i>
+            </h1>
+        </div>
+        <nav>
+            <a href="Inicio.html">Inicio</a>   
+            <a href="blog.html">Nuestro Blog</a>
+            <a href="curso.html">Quiero ser barista!</a>
+        </nav>
+        <br>
+    </header>
+    <main class="transp">
+        <div class="form">
+            <div class="intro_form">
+                <h2 class="contac">
+                    CONTACTO
+                </h2>
+                <p>
+                    No dudes en comunicarte con nosotros
+                    si tienes dudas acerca de nuestro
+                    curso, o sugerencias para nuestro
+                    blog. Nos encantaría escuchar lo que
+                    pensás!
+                </p>
+            </div>
+            <div class="body_form">
+                <form onsubmit="return obtenerDatos()" action="/my-handling-form-page" method="post">
+                    <h3>
+                        Completa el formulario con tus datos y
+                        te responderemos lo antes posible:
+                    </h3>
+                    <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" size="22">
+                    </li>
+                    <li>
+                        <label for="name">Apellido:</label>
+                        <input type="text" id="last_name" name="user_last_name" size="22">
+                    </li>
+                    <li>
+                        <label for="name">Telefono:</label>
+                        <input type="tel" id="phone" name="user_phone" placeholder="Opcional" size="22">
+                    </li>
+                    <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="email" name="user_email" size="22">
+                    </li>
+                    <li>
+                        <label for="name">Ciudad:</label>
+                        <input type="text" id="city" name="user_city" size="22">
+                    </li>
+                    <li>
+                        <label for="sbj">Asunto:</label>
+                        <input list="asunto_msj" id="sbj" name="user_subject" placeholder="Podés elegir una opción" size="22"></input>
+                        <datalist id="asunto_msj">
+                            <option value="Quiero info del curso"></option>
+                            <option value="Quiero inscribirme"></option>
+                            <option value="Mi experiencia en el curso"></option>
+                            <option value="Idea para el Blog"></option>
+                            <option value="Comentario - BlogPost"></option>
+                            <option value="RRHH - Quiero ser parte de NMC"></option>
+                        </datalist>
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message" rows="5" cols="18"></textarea>
+                    </li>
+                    <li class="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px"><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32V416c0 53 43 96 96 96H288c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H352 32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48H384V256zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
+                        <button onclick="obtenerDatos()" type="submit">Enviar</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px"><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32V416c0 53 43 96 96 96H288c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H352 32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48H384V256zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
+                    </li>
+                    </ul> 
+                </form>
+            </div>
+            <script src="js/archive.js"></script>
+        </div>
+
+        <div class="local">
+            <div class="intro_local">
+                <h2 class="contac">
+                    NUESTRO LOCAL
+                </h2>
+                <p>
+                    Estamos ubicados en el centro de Capital
+                    Federal y abrimos todos los días de 8 a 18
+                    hs. Durante ese horario podés pasar a disfrutar
+                    de un café en el local, retirar uno para
+                    llevarnos o consultar sobre los cursos
+                    en persona!
+                </p>
+            </div>
+            <div class="mapa_local">
+                                   
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3042401909006!2d-58.387586785173156!3d-34.5964674804614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab851e7870b%3A0xf3705619758715bf!2sTalcahuano%2C%20C1013%20CABA%2C%20Argentina!5e0!3m2!1sen!2sus!4v1666370600496!5m2!1sen!2sus" 
+                allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+            </div>
+            <br>
+            <br>
+            <div class="publicidad">
+                <img src="/tp_codo_a_codo_grupo4/imagenes/publicidad.jpg" class="img_publi">
+            </div>
+        </div>
+        
+    
+    </main>
+
+    <hr>
+
+    <footer>
+        <div class="foot">
+            <p class="nuestro">
+            Nuestro Mundo de Café es una comunidad de amantes
+            del café que busca formar tanto a futuros
+            profesionales como a aficionados por el arte del
+            café. <br>
+            Ante cualquier consulta, no duden en
+            <a href="contacto.html">contactarse con nosotros</a>!
+            </p>
+            <p class="reserva">
+            Derechos Reservados Codo a Codo @2022
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
