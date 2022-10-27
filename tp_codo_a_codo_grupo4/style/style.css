@@ -281,8 +281,6 @@ label {
     text-align: center;
   }
   body header div.contenedor nav.header a{
-    /* align-content:flex-start;
-    display: block; */
     position: absolute;
     z-index: 1;
   }
@@ -304,6 +302,19 @@ label {
   main.root section.main_sect article.presenta{
     display: inline;
     text-align: center;
+    margin: 10%;
   }
 }
 /*----------------------*/
+
+@media only screen and (max-width: 900px){
+  main.root section.main_sect article.presenta{
+    display: inline;
+    text-align: center;
+    margin: 10%;
+  }
+  aside.xaside{
+    display: none;
+  }
+  
+}
