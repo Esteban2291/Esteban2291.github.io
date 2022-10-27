@@ -57,7 +57,6 @@ a{
   color: #f3e3d0;
   padding: 1%;
 }
-
 .main_sect{
   width: 85%;
 }
@@ -278,19 +277,21 @@ label {
     align-content: center;
     padding: 1;
   }
-  header div.contenedor{
+  body header div.contenedor img.icono_header{
     text-align: center;
   }
-  header div.contenedor nav a{
-    align-content: center;
-    padding: 0.5em;
-    margin: 0.5em;
+  body header div.contenedor nav.header a{
+    /* align-content:flex-start;
+    display: block; */
+    position: absolute;
+    z-index: 1;
   }
-  aside .xaside{
+  aside.xaside{
     display: none;
   }
   article.obj_curso_modulos div.col2_text_der{
     text-align: justify;
+    width: 100%;
   }
   .col1_txt_der{
     width: 50%;
@@ -298,6 +299,10 @@ label {
     display: none;
   }
   .button{
+    text-align: center;
+  }
+  main.root section.main_sect article.presenta{
+    display: inline;
     text-align: center;
   }
 }
