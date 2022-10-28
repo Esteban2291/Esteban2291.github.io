@@ -305,6 +305,7 @@ label {
     margin: 10%;
   }
   section.recomend article.recom_cafe div.api script{
+    width: 100%;
     display: contents;
   }
 }
