@@ -284,9 +284,9 @@ label {
     position: absolute;
     z-index: 1;
   }
-  aside.xaside{
+  /* aside.xaside{
     display: none;
-  }
+  } */
   article.obj_curso_modulos div.col2_text_der{
     text-align: justify;
     width: 100%;
@@ -304,17 +304,21 @@ label {
     text-align: center;
     margin: 10%;
   }
+  section.recomend article.recom_cafe div.api{
+    display: inline;
+  }
 }
 /*----------------------*/
 
 @media only screen and (max-width: 900px){
-  main.root section.main_sect article.presenta{
+  main.root section.main_sect article.presenta div.col1 div.div_foto_cre p div.col2 div.div_foto_cre p{
     display: inline;
     text-align: center;
     margin: 10%;
+    content: normal;
   }
-  aside.xaside{
-    display: none;
+  section.recomend article.recom_cafe div.api{
+    display: inline;
   }
   
 }
