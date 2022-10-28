@@ -304,7 +304,7 @@ label {
     text-align: center;
     margin: 10%;
   }
-  section.recomend article.recom_cafe div.api{
+  section.recomend article.recom_cafe div.api script{
     display: inline;
   }
 }
@@ -317,7 +317,7 @@ label {
     margin: 10%;
     content: normal;
   }
-  section.recomend article.recom_cafe div.api{
+  section.recomend article.recom_cafe div.api script{
     display: inline;
   }
   
